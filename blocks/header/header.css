@@ -1,0 +1,25 @@
+.header{
+    width:calc(100% - 96px);
+    margin-top:28px;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    justify-content: space-between;
+}
+
+@media (max-width: 425px) {
+    .header{
+      margin-top:18px;
+      width:calc(100% - 32px);
+    }
+}
+
+@media (max-width: 728px) and (min-width: 425px) {
+    .header{
+      box-sizing: border-box;
+      width:calc(100% - 48px);
+    }
+}
+
+
+

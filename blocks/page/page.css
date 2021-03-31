@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Inter'; 
+	src: url(/fonts/Inter-V.ttf); 
+}
+
+@font-face {
+	font-family: 'Inter bold'; 
+	src: url(/fonts/Inter-Bold.otf); 
+}
+
+@font-face {
+	font-family: 'Inter semibold'; 
+	src: url(/fonts/Inter-SemiBold.otf); 
+}
+
+.page{
+    max-width:1280px;
+    margin: 0 auto;
+    display:flex;
+    color:white;
+    font-family:Inter;
+    flex-direction:column;
+    align-items:center;
+    background-color:#2A2C2F;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering:optimizeLegibility;
+  }
+ 
+ 
+  
+

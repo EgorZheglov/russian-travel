@@ -1,0 +1,26 @@
+.lead__caption{
+    color:white;
+    align-self: flex-start;
+    margin-top:8px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+@media (max-width: 425px) {
+    .lead__caption{
+        color:white;
+        align-self: flex-start;
+        margin-top:8px;
+        margin-left:16px;
+        margin-bottom: 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1.4;
+    }   
+   }

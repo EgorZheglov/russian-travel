@@ -1,0 +1,6 @@
+.header__links{
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
