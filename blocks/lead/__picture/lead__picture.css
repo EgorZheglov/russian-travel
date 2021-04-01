@@ -6,6 +6,15 @@
 @media (max-width: 425px) {
     .lead__picture{
         margin-top:40px;  
+        width:100%;
+        right:0;
+        left:0;
     }
 }
 
+@media (max-width: 768px) and (min-width: 425px) {
+    .cover__link{
+        min-height:200px;
+        max-height:480px;
+     }
+   }

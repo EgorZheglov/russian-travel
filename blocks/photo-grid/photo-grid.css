@@ -3,14 +3,14 @@
   display:grid;
   gap:14px;
   grid-template-columns:repeat(4, 1fr);
-  grid-template-rows:repeat(3, 1fr); 
+  grid-template-rows:repeat(3, minmax(216px,284px)); 
 }
 
 @media (max-width: 425px) {
   .photo-grid{
     width:calc(100% - 32px);
     grid-template-columns:repeat(1, 1fr);
-    grid-template-rows:repeat(12, 1fr); 
+    grid-template-rows:repeat(12, minmax(216px,284px)); 
   }
 }
 
@@ -18,13 +18,13 @@
   .photo-grid{
     width:calc(100% - 48px);
     grid-template-columns:repeat(2, 1fr);
-    grid-template-rows:repeat(6, 1fr); 
+    grid-template-rows:repeat(6, minmax(216px,284px)); 
   }
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .photo-grid{
     grid-template-columns:repeat(3, 1fr);
-    grid-template-rows:repeat(4, 1fr); 
+    grid-template-rows:repeat(4, minmax(216px,284px)); 
   }
 }

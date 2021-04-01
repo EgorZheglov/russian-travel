@@ -21,3 +21,9 @@
     line-height: 1.25;
     }
 }
+
+@media (min-width: 425px) and (max-width: 620px) {
+    .lead__subtitle{
+        font-size:20px; /*Иначе текст не помещается*/
+    }
+}

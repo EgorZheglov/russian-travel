@@ -32,3 +32,9 @@
         font-size:60px; /*Иначе текст не помещается*/
     }
 }
+
+@media (min-width: 620px) and (max-width: 738px) {
+    .lead__title{
+        font-size:75px; /*Иначе текст не помещается*/
+    }
+}
