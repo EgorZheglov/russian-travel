@@ -38,15 +38,3 @@
         justify-content: space-between;
     }    
    }
-/*
-   @media (min-width: 425px) and (max-width: 520px) {
-    .footer{
-        width:calc(100% - 24px);
-        margin-top:92px;
-        margin-right:12px;
-        margin-bottom:24px;
-        display:flex;
-        flex-direction:row;
-        justify-content: space-between;
-    }
-}
