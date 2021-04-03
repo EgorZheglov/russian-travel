@@ -1,12 +1,24 @@
 .cover{
-    margin-top:42px;
+    margin-top:92px;
     position: relative;
     width:100%;
-    color:inherit;  
+    max-width:1280px;
+    color:inherit;
+    box-sizing: border-box;
 }
-/*
+@media (max-width: 425px) {
+  .cover{
+    margin-top:66px;
+  }    
+}
 
-*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .cover{
+    margin-top:90px;
+  }    
+}
+
+
 
 /*
 .cover:hover{

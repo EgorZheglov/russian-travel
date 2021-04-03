@@ -1,5 +1,5 @@
 .place{
-    margin-top:80px;
+    margin-top:92px;
     width:100%;
     display:grid;
     column-gap: 32px;
@@ -11,9 +11,15 @@
     "place__image place__paragraph ";
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) and (min-width:80px){
     .place{
-        margin-top:50px;
+        margin-top:80px;
+     }
+   }
+
+@media (max-width: 550px) {
+    .place{
+        margin-top:64px;
         width:100%;
         display:grid;
         row-gap: 32px;

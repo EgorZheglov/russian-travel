@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Russian travel</title>
+  <title>Путешествия по России</title>
 </head>
 <body>
   <div class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Лого">   <!--Валидатор Яндекса не пускает svg код. Но вообще он работает-->
     <div class="header__links">
-      <a class="header__link" href="#1" target="_blank">Ru</a>
+      <a class="header__link header__link_active" href="#1" target="_blank">Ru</a>
       <a class="header__link" href="#1" target="_blank">En</a>
     </div>
   </header>
@@ -21,7 +21,7 @@
       <p class="lead__subtitle"> Настоящая страна не в выпусках 
           новостей, а здесь. </p>
       <img class="lead__picture" src="./images/lead-polka.jpg" alt="Полка">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
   </section>
   <section class="intro">
     <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -39,11 +39,11 @@
       Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
     </p>
     <ul class="intro__list">
-     <li class="intro__list-point"> Часовых поясов <div class="intro__number">11</div></li>
-     <li class="intro__list-point">Объектов природного наследия ЮНЕСКО <div class="intro__number">12</div></li>
-     <li class="intro__list-point">Объектов культурного наследия ЮНЕСКО <div class="intro__number">16</div></li>
-     <li class="intro__list-point">Природных заповедников <div class="intro__number">105</div></li>
-     <li class="intro__list-point">Аэропортов <div class="intro__number">241</div></li>
+     <li class="intro__list-point"> Часовых поясов <span class="intro__number">11</span></li>
+     <li class="intro__list-point">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+     <li class="intro__list-point">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+     <li class="intro__list-point">Природных заповедников <span class="intro__number">105</span></li>
+     <li class="intro__list-point">Аэропортов <span class="intro__number">241</span></li>
     </ul>
   </section>
   <section class="photo-grid">
@@ -61,11 +61,11 @@
     <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
   </section>
   <section class="places">
-    <div class="place">
-      <h3 class="place__title">Куршская коса</h3>
+    <article class="place">
+      <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
-        <p class="place__url-heading">url:</p>
-        <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+        <p class="place__url-heading">URL:</p>
+        <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
       </div>
       <img class="place__image" src="./images/place-kosa.jpg" alt="коса">
       <div class="place__paragraphs">
@@ -77,12 +77,12 @@
           и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы 
           и запах стального, прохладного моря.</p>
       </div>
-    </div>
-    <div class="place">
-      <h3 class="place__title">Кольский</h3>
+    </article>
+    <article class="place">
+      <h2 class="place__title">Кольский</h2>
       <div class="place__website">
-        <p class="place__url-heading">url:</p>
-        <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
+        <p class="place__url-heading">URL:</p>
+        <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
           National Geographic
         </a>
       </div>
@@ -95,12 +95,12 @@
           об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
           в Мурманск.</p>
       </div>
-    </div>
-    <div class="place">
-      <h3 class="place__title">Алтай</h3>
+    </article>
+    <article class="place">
+      <h2 class="place__title">Алтай</h2>
       <div class="place__website">
-        <p class="place__url-heading">url:</p>
-        <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
+        <p class="place__url-heading">URL:</p>
+        <a class="place__link link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
       </div>
       <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
       <div class="place__paragraphs">
@@ -111,12 +111,12 @@
         <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, 
           а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
       </div>
-    </div>
-    <div class="place">
-      <h3 class="place__title">Зимний Байкал</h3>
+    </article>
+    <article class="place">
+      <h2 class="place__title">Зимний Байкал</h2>
       <div class="place__website">
-        <p class="place__url-heading">url:</p>
-        <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+        <p class="place__url-heading">URL:</p>
+        <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
       </div>
       <img class="place__image" src="./images/place-winter-baikal.jpg" alt="зимний байкал">
       <div class="place__paragraphs">
@@ -125,18 +125,18 @@
           из красивейших мест в России.</p>
         <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
       </div>
-    </div>
-    <div class="place">
-      <h3 class="place__title">Карелия</h3>
+    </article>
+    <article class="place">
+      <h2 class="place__title">Карелия</h2>
       <div class="place__website">
-        <p class="place__url-heading">url:</p>
-        <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+        <p class="place__url-heading">URL:</p>
+        <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
       </div>
       <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
       <div class="place__paragraphs">
         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </div>
-    </div>
+    </article>
   </section>
   <section class="cover">
     <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
@@ -148,21 +148,24 @@
 </main>
   <footer class="footer">
     <nav class="footer__links">
-      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
     </nav>
     <p class="footer__author">&copy; 2021. Егор Жеглов</p>
   </footer>
   </div>
 </body>
 </html>
-<!--Вероятно, тут много ошибок, прошу меня простить. Работа делалась в условиях крайне ограниченного времени.-->
-<!--Очень извиняюсь за ошибку со шрифтами. Я не заметил.-->
-<!--В при произвольной игре с окном браузера иногда появляется горизонтальный скролл, хотя визуально все на своих местах.
-   При точечном выставлении разрешения он пропадает и все отображается как надо-->
 
-<!--Еще раз очень извиняюсь. Работа делалась в полевых условиях на протяжении всего времени. Теперь я вернулся домой, 
-    и обещаю быть намного внимательнее-->
+<!--Большое спасибо за подробное ревью. Все комментарии понятны. Вопросы вызывают только два момента.-->
+
+<!--Правильно ли я задал transition ссылкам? Просто в макете этого нет, 
+  а на text-decoration, как я понял, эта анимация не распространяется. Если что, я уберу в следующей итерации-->
+
+<!--Самое главное: удалось ли мне исправить блок cover как надо?. Комментарии про ресайзинг не совсем понятен.-->
+
+
+

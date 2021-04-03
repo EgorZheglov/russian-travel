@@ -10,14 +10,18 @@
     line-height: 1.17;
 }
 
+/*Не очень понятно: тут нужен hover на подчеркивание или нет?
+Оставлю, так как интерактивность требуется в брифе*/
+
 .header__link:hover{
     text-decoration:underline;
 }
 
+
 @media (max-width: 425px) {
-    .lead{
+    .header__link{
         font-size: 18px;
-        line-height: 1.11;
+        line-height: 1.11px;
     }
     .header__link:hover{
         text-decoration:none;
