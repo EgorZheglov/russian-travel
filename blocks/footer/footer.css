@@ -13,7 +13,6 @@
 
 @media (max-width: 670px) { /*С этого места навигация просто не помещается в строчку, поэтому тут переход на колонну в этом месте*/
     .footer{
-        margin-left:0;
         margin-right:0;
         align-items:flex-start;
         width:calc(100% - 134px);
