@@ -12,9 +12,4 @@
     }
 }
 
-@media (max-width: 768px) and (min-width: 425px) {
-    .cover__link{
-        min-height:200px;
-        max-height:480px;
-     }
-   }
+

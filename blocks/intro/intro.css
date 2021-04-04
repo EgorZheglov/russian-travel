@@ -9,7 +9,6 @@
 @media (max-width: 425px) {
   .intro{
     width:calc(100% - 32px);
-    align-self:center;
     margin-left:16px;
   }
 }
@@ -17,12 +16,11 @@
 @media (max-width: 768px) and (min-width: 425px) {
   .intro{
     width:calc(100% - 48px);
-    align-self:center;
     margin-left:24px;
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 769px) {
   .intro{
     margin-left:48px;
     width:calc(100% - 336px);

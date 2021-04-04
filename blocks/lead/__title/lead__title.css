@@ -11,30 +11,24 @@
     line-height: 1.04;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 470px) {
     .lead__title{
         max-width:288px;
-        font-style: normal;
-        font-weight: 900;
         font-size: 40px;
         line-height: 1.1;
     }
 }
 
-@media (min-width: 425px) and (max-width: 728px) {
+@media (min-width: 471px) and (max-width: 620px) {
     .lead__title{
+        font-size:60px; /*Иначе текст не помещается*/
         width:calc(100% - 48px);
     }
 }
 
-@media (min-width: 425px) and (max-width: 620px) {
-    .lead__title{
-        font-size:60px; /*Иначе текст не помещается*/
-    }
-}
-
-@media (min-width: 620px) and (max-width: 738px) {
+@media (min-width: 621px) and (max-width: 738px) {
     .lead__title{
         font-size:75px; /*Иначе текст не помещается*/
+        width:calc(100% - 48px);
     }
 }

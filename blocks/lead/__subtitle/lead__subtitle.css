@@ -21,6 +21,14 @@
 
 @media (min-width: 425px) and (max-width: 620px) {
     .lead__subtitle{
+        width:calc(100% - 48px);
+        font-size:20px; /*Иначе текст не помещается*/
+    }
+}
+
+@media (min-width: 621px) and (max-width: 725px) {
+    .lead__subtitle{
+        width:calc(100% - 128px);
         font-size:20px; /*Иначе текст не помещается*/
     }
 }
