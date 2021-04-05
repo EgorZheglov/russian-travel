@@ -9,7 +9,6 @@
 @media (max-width: 600px) {
     .footer__author{
         align-self: baseline;
-        font-size: 14px;
         line-height: 14px;
     }
 }
